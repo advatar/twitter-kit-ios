@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.resources = ["iOS/TwitterKit.framework/TwitterKitResources.bundle", "iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"]
   s.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"
   s.dependency "TwitterCore", ">= 3.1.0"
+  s.static_framework = true
 end
